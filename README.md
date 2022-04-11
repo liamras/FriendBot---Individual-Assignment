@@ -21,10 +21,10 @@ NameFinder setup: Java build path libraries need the required jar files added to
 Required model for NameFinder: Download en-ner-person.bin from: http://opennlp.sourceforge.net/models-1.5/
 
 # Individual Assignment - API Features
-1. Google translate method: This method can take a phrase provided by the user and translate it to either french, german, or danish
+1. Google translate method: This method can take a phrase provided by the user and translate it to either french, german, or danish. The agent returns the translated phrase. Command:
     !translate [language], [phrase]
 
-2. Twitter method: This method can take a username provided by the user and display the latest status posted by them 
+2. Twitter method: This method can take a username provided by the user and display the latest status posted by them. The agent returns the desired user's status as text. Command:
     !twitter [username]
     
 # Demo Conversations
